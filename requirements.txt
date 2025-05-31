@@ -1,0 +1,8 @@
+rdp
+dtw
+numpy
+scipy
+scikit-learn
+matplotlib
+pandas
+jupyter
