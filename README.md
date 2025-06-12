@@ -14,7 +14,7 @@
   <p align="center">
     This repository contains the code used to generate and evaluate synthetic navigation paths via a nonparametric statistical approach (model-free transformation + copula). Below are the key visual results produced by the code.
     <br />
-    <a href="https://arxiv.org/"><strong>Read the full paper »</strong></a>
+    <a href="https://arxiv.org/abs/2506.03522"><strong>Read the full paper »</strong></a>
   </p>
 </div>
 
