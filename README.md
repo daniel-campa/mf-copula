@@ -57,26 +57,12 @@ during our generation process. The trajectories progress over time in a manner t
 
 <figure>
   <img src="img/ntt-experiments.png" alt="Synthetic paths for the NTT dataset" />
-  <figcaption><strong>Figure 9.</strong> 50 NTT synthetic generated paths from 3 different parameter sets. In this case too we see that increasing bor λincreases the variance in the synthetic
+  <figcaption><strong>Figure 9.</strong> 50 NTT synthetic generated paths from 3 different parameter sets. In this case too we see that increasing b or λ increases the variance in the synthetic
 paths and they transition from being strongly overfitted to strongly underfitted from left to right.</figcaption>
 </figure>
 
 ---
 
-<!-- ## Repository Structure
-
-```
-├── frontiers/        # Preprocessing script for 
-├── HNTT/             # Generation & evaluation scripts
-├── img/              # Exported figures (PNG) used in this README
-├── notebooks/        # Exported figures (PNG) used in this README
-├── schola/           # Exported figures (PNG) used in this README
-├── synthetic/        # Exported figures (PNG) used in this README
-├── .gitignore        # Exported figures (PNG) used in this README
-├── LICENSE           # Exported figures (PNG) used in this README
-├── README.md         # This file
-└── requirements.txt  # Python dependencies
-``` -->
 
 ## Requirements
 
@@ -88,24 +74,6 @@ Install with:
 pip install -r requirements.txt
 ```
 
-<!-- ## Usage
-
-Generate synthetic paths and evaluation results:
-
-```bash
-# Example: Generate Schola paths with medium variance
-python scripts/generate_paths.py --dataset schola --bandwidth 10 --scale 10
-
-# Example: Run the three-sample hypothesis test for NTT data
-python scripts/evaluate_paths.py --dataset ntt --bandwidth 5 --scale 50
-```
-
-Detailed options are available with:
-
-```bash
-python scripts/generate_paths.py --help
-``` -->
-
 <!-- CONTACT -->
 ## Contact
 
@@ -116,10 +84,18 @@ Daniel Campa - [LinkedIn](https://www.linkedin.com/in/danielcampa/) - dc00039@mi
 
 
 <!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+## How to Cite
 
-* Dr. Mehdi Saeedi -- Principal Staff, AMD Research
-* Dr. Ian Colbert -- Technical Staff, AMD Research
-* Dr. Srinjoy Das -- Assistant Professor, Department of Mathematical and Data Sciences, West Virginia University
+```
+@misc{campa2025pathgenerationevaluationvideo,
+      title={Path Generation and Evaluation in Video Games: A Nonparametric Statistical Approach}, 
+      author={Daniel Campa and Mehdi Saeedi and Ian Colbert and Srinjoy Das},
+      year={2025},
+      eprint={2506.03522},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2506.03522}, 
+}
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
